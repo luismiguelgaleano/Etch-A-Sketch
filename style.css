@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    margin-bottom: 1rem;
+    color: white;
+    background-color: black;
+    width: 25rem;
+    height: 25rem;
+    padding: 0.1rem;
+    display: grid;
+    gap: 0.1rem;
+}
+#button {
+    color: white;
+    font-family:fantasy;
+    font-size: medium;
+    font-weight: 100;
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #e9af45;
+}
+#button:hover {
+    background-color: #d5a54f;
+}
